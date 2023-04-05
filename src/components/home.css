@@ -42,3 +42,8 @@ img{
 .location{
     margin: 5px;
 }
+
+.boton-phone{
+    background: none; 
+    border: none;
+}

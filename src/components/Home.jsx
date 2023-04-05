@@ -20,12 +20,12 @@ const Home = () => {
       <h1>NATALIA IRIARTE LÓPEZ</h1>
       <h4>Junior Full Stack Developer</h4>
       <h5><img className="location" src={locationicon} alt="Localización" width={25} /> Asturias - Galicia</h5>
-      <a href="https://github.com/Natalia-irlo" target="_blank" rel="noreferrer"><img className="fotoperfil" src={fotonatalia} alt="Foto de perfil" width={250} /></a>
+      <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img className="fotoperfil" src={fotonatalia} alt="Foto de perfil" width={250} /></a>
       <div className="icons">
-        <a href="https://github.com/Natalia-irlo" target="_blank"><img src={icongithub} alt="GitHub" width={50}/></a>
-        <a href="https://www.linkedin.com/in/nataliairlo/" target="_blank"><img src={iconlink} alt="Linkdin" width={62}/></a>
+        <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img src={icongithub} alt="GitHub" width={50}/></a>
+        <a href="https://www.linkedin.com/in/nataliairlo/" target="_blank" rel="noopener noreferrer"><img src={iconlink} alt="Linkdin" width={62}/></a>
         <a href="mailto:natiriarte5@gmail.com"><img className="iconmail" src={iconmail} alt="Mail" width={60}/></a>
-        <a href="#" onClick={showPhoneNumber}><img src={iconphone} alt="Phone" width={50}/></a>
+        <button className='boton-phone' onClick={showPhoneNumber}><img src={iconphone} alt="Phone" width={50}/></button>
       </div>
     </div>
   );
