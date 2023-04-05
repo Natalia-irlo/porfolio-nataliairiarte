@@ -2,7 +2,7 @@ import React from 'react';
 import Aboutme from './Aboutme';
 import './Others.css';
 
-const Others = () => {
+const Otros = () => {
   return (
     <div>
       <Aboutme />
@@ -28,4 +28,4 @@ const Others = () => {
   )
 }
 
-export default Others
+export default Otros

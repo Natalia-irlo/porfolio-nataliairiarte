@@ -27,9 +27,9 @@ const Aboutme = () => {
         <p><b>Galicia</b></p>
       </div>
       <div className='text-datos'>
-      <h1>NATALIA IRIARTE LÓPEZ</h1>
+      <h2>NATALIA IRIARTE LÓPEZ</h2>
       <div>
-        <h4>Junior Full Stack Developer</h4>
+        <h5>Junior Full Stack Developer</h5>
       </div>
       </div>
       <Link className="nav-link" target="_self" aria-current="page" to='/'>

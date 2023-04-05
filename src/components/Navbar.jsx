@@ -15,11 +15,11 @@ const Navbar = () => {
         </Link>
       </button>
       <button className='boton-menu'>
-        <Link className="links nav-link" target="_self" aria-current="page" to='/Work'><b>EXPERIENCIA</b>
+        <Link className="links nav-link" target="_self" aria-current="page" to='/Experiencia'><b>EXPERIENCIA</b>
         </Link>
       </button>
       <button className='boton-menu'>
-        <Link className="links nav-link" target="_self" aria-current="page" to='/Others'><b>FORMACIÓN COMPLEMENTARIA</b>
+        <Link className="links nav-link" target="_self" aria-current="page" to='/Otros'><b>FORMACIÓN COMPLEMENTARIA</b>
         </Link>
       </button>
     </div>

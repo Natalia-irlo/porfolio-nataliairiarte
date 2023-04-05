@@ -2,7 +2,7 @@ import React from 'react';
 import Aboutme from './Aboutme';
 import './Work.css';
 
-const Work = () => {
+const Experiencia = () => {
   return (
     <div>
       <Aboutme />
@@ -44,4 +44,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Experiencia

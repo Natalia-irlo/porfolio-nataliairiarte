@@ -17,10 +17,10 @@ const Home = () => {
 
   return (
     <div className="datos">
-      <h1>NATALIA IRIARTE LÓPEZ</h1>
-      <h4>Junior Full Stack Developer</h4>
+      <h2>NATALIA IRIARTE LÓPEZ</h2>
+      <h5><b>Junior Full Stack Developer</b></h5>
       <h5><img className="location" src={locationicon} alt="Localización" width={25} /> Asturias - Galicia</h5>
-      <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img className="fotoperfil" src={fotonatalia} alt="Foto de perfil" width={250} /></a>
+      <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img className="fotoperfil" src={fotonatalia} alt="Foto de perfil" width={200} /></a>
       <div className="icons">
         <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img src={icongithub} alt="GitHub" width={50}/></a>
         <a href="https://www.linkedin.com/in/nataliairlo/" target="_blank" rel="noopener noreferrer"><img src={iconlink} alt="Linkdin" width={62}/></a>
