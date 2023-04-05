@@ -37,10 +37,11 @@ const Aboutme = () => {
       </Link>
       
       <div className="icons">
-      <a href="https://github.com/Natalia-irlo" target="_blank" rel="noreferrer"><img src={icongithub} alt="GitHub" width={50}/></a>
-      <a href="https://www.linkedin.com/in/nataliairlo/" target="_blank" rel="noreferrer"><img src={iconlink} alt="Linkdin" width={62}/></a>
+        <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img src={icongithub} alt="GitHub" width={50}/></a>
+        <a href="https://www.linkedin.com/in/nataliairlo/" target="_blank" rel="noopener noreferrer"><img src={iconlink} alt="Linkdin" width={62}/></a>
         <a href="mailto:natiriarte5@gmail.com"><img className="iconmail" src={iconmail} alt="Mail" width={60}/></a>
-        <a href="#" onClick={showPhoneNumber}><img src={iconphone} alt="Phone" width={50}/></a>
+        <button onClick={showPhoneNumber}><img src={iconphone} alt="Phone" width={50}/></button>
+
       </div>
     </div>
     </div>
