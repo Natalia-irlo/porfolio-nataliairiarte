@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(255, 230, 197);
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(203, 149, 78);
+}
+
+.boton-menu{
+    background-color: rgb(255, 230, 197);
+    border: transparent;
+    width: 170px;
+    border-radius: 20px;
+    margin: 20px;
+    color: rgb(203, 149, 78);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    transition: all 0.2s ease-out;
+}
+
+.boton-menu:hover {
+    background-color: white;
+    box-shadow: 0 0 10px 3px #ffffff80;
+  }
+
+  @media (max-width: 768px) {
+    .botones {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

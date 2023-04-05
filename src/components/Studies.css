@@ -1,0 +1,23 @@
+.studies-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+}
+
+.text-studies{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hardskills{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
