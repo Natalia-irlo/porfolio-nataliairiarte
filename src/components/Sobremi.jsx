@@ -4,17 +4,18 @@ import './Aboutmemore.css';
 
 const Sobremi = () => {
   return (
-    <div className='ammore'>
+    <div>
       <Aboutme />
+      <div className='ammore'>
       <div className='aboutme-all'>
       <div className='text-sobremi'>
-        <h4>
+        <h5>
           <p>Soy una desarrolladora web junior en formación desde los últimos meses,</p>
           <p>con experiencia en el campo del diseño y en el manejo de bases de datos,</p>
           <p>áreas que trato de unir adentrándome en el frontend y backend respectivamente.</p>
-        </h4>
+        </h5>
       </div>
-      <h2 className='text-sobremi'><b>SOFT SKILLS</b></h2>
+      <h4 className='text-sobremi'><b>SOFT SKILLS</b></h4>
       <div className='softskills'>
       <div>
         <h5>
@@ -31,6 +32,7 @@ const Sobremi = () => {
         <li>Facilidad de adaptación</li>
         <li>Creativa</li>
         </h5>
+      </div>
       </div>
       </div>
       </div>

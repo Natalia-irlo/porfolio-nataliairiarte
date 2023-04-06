@@ -19,7 +19,7 @@ const Home = () => {
     <div className="datos">
       <h2>NATALIA IRIARTE LÓPEZ</h2>
       <h5><b>Junior Full Stack Developer</b></h5>
-      <h5><img className="location" src={locationicon} alt="Localización" width={25} /> Asturias - Galicia</h5>
+      <h5 className="astgal"><img className="location" src={locationicon} alt="Localización" width={25} /> Asturias - Galicia</h5>
       <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img className="fotoperfil" src={fotonatalia} alt="Foto de perfil" width={200} /></a>
       <div className="icons">
         <a href="https://github.com/Natalia-irlo" target="_blank" rel="noopener noreferrer"><img src={icongithub} alt="GitHub" width={50}/></a>
