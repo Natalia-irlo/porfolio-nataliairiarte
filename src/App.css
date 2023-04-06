@@ -5,4 +5,29 @@
 
 body{
   background-color: rgb(255, 230, 197);
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  body{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  body{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  body{
+    width: 100%;
+  }
 }
