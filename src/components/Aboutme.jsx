@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const Aboutme = () => {
 
   const showPhoneNumber = () => {
-    window.alert("Este es mi número de teléfono: (+34) 610 610 462 podéis poneros en contacto conmigo a través de llamadas y WhatsApp");
+    window.alert("Este es mi número de teléfono: (+34) 610 610 462 puedes ponerte en contacto conmigo a través de llamadas y WhatsApp");
   };
   
   return (
